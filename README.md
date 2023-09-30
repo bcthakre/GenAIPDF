@@ -49,6 +49,7 @@ Ensure these libraries are set up:
 
 ##  App Flow Diagram
 
+```mermaid
 graph TD
     A[Start]
     B[Upload PDF]
@@ -61,3 +62,4 @@ graph TD
     C --> D
     D --> E
     E --> F
+```
