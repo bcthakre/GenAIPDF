@@ -37,3 +37,27 @@ Ensure these libraries are set up:
 3. 🛠 Install necessary packages:
     ```bash
     pip install -r requirements.txt
+4. 🎉 Launch the Streamlit app:
+    ```bash
+    streamlit run app.py
+
+## 📘 Usage
+
+1. 🖥 Open the app in your browser.
+2. 📄 Drag and drop a PDF file.
+3. ❓ Pose your questions regarding the PDF content.
+
+##  App Flow Diagram
+
+graph TD
+    A[Start]
+    B[Upload PDF]
+    C[Extract Text from PDF]
+    D[Process & Embed Text]
+    E[User asks Question]
+    F[Fetch & Display Answer]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
