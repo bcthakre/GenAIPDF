@@ -30,7 +30,7 @@ Ensure these libraries are set up:
 
 1. 📥 Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bcthakre/GenAIPDF.git
 2. 🚀 Move to the repository directory:
     ```bash
     cd <repository-directory>
